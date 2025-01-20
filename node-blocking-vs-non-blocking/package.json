@@ -1,0 +1,19 @@
+{
+  "name": "laboratorio1_nodejs",
+  "version": "1.0.0",
+  "description": "Un pequeño demo para explicar la diferencia",
+  "main": "app-blocking.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ka1laK/Laboratorio1_nodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ka1laK/Laboratorio1_nodeJs/issues"
+  },
+  "homepage": "https://github.com/Ka1laK/Laboratorio1_nodeJs#readme"
+}
