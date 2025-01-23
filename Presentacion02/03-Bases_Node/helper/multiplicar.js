@@ -11,7 +11,7 @@ const crearArchivo = async (base = 5, listar = true, hasta = 10) => {
 
         
         for (let i = 1; i <= hasta; i++) {
-            salida += `${base} x ${i} = ${base * i}\n`; // Sin colores (para el archivo)
+            salida += `${base} x ${i} = ${base * i}\n`;
             salidaConColores += `${base.toString().yellow} ${'x'.green} ${i.toString().yellow} ${'='.green} ${base * i}\n`; // Con colores (para la consola)
         }
 
@@ -23,7 +23,7 @@ const crearArchivo = async (base = 5, listar = true, hasta = 10) => {
             console.log(salidaConColores);
         }
 
-        const filePath = path.join(__dirname, `.Presentacion02/03-Bases_Node/salida/tabla-del-${base}.txt`);
+        const filePath = path.join(__dirname, '../salida', `tabla-del-${base}.txt`);
         fs.writeFileSync(filePath, salida);
 
         return `Archivo creado: ${filePath}`;
